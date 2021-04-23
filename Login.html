@@ -1,0 +1,140 @@
+<!--
+
+DEVELOPER: MD ISLAM, IS117-002, Spring 2021
+
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+    
+    
+    
+    <style>
+    
+       
+.login{  
+        width: 500px;  
+        overflow: hidden;  
+        margin: auto;  
+        padding: 80px;  
+        background: #A9A9A9;  
+        border-radius: 15px ;
+     
+}  
+h2{  
+    text-align: center;  
+    color: #A9A9A9;  
+    padding: 20px;  
+}  
+label{  
+    color: black;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+a{  
+    float: right;  
+    background-color: grey;  
+}  
+    
+    
+    
+    
+    </style>
+</head>
+
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/mm.jpg">
+				<div class="tm-header">
+					<div class="row tm-header-inner">
+						<div class="col-md-6 col-12">
+							 <img style="width: 150px; height: 150px;" src="img/logo.png" alt="Logo" class="tm-site-logo" />
+							<div class="tm-site-text-box">
+								<h1 class="tm-site-title">MD Trends</h1>
+							
+							</div>
+						</div>
+						<nav class="col-md-6 col-12 tm-nav">
+							<ul class="tm-nav-ul">
+								<li class="tm-nav-li"><a href="Home.html" class="tm-nav-link">Home</a></li>
+								
+								<li class="tm-nav-li"><a href="contact.html" class="tm-nav-link">Contact</a></li>
+                                <li class="tm-nav-li"><a href="Login.html" class="tm-nav-link active">Login</a></li>
+							</ul>
+						</nav>	
+					</div>
+				</div>
+			</div>
+		</div>
+
+		 <h2>Login Page</h2><br>    
+    <div class="login">    
+    <form id="login" method="get" action="login.php">    
+        <label><b>User Name     
+        </b>    
+        </label>    
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+        <br><br>    
+        <label><b>Password     
+        </b>    
+        </label>    
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+        <br><br>    
+        <input type="button" name="log" id="log" value="Log In Here">       
+        <br><br>    
+        <input type="checkbox" id="check">    
+        <span>Remember me</span>    
+        <br><br>    
+     <a href="#">Forgot Password</a>    
+    </form>     
+</div>    
+
+		<footer class="tm-footer text-center">
+			<p>Copyright &copy; MD Islam, 2021 | Terms of service | Privacy statement</p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	
+</body>
+</html>
